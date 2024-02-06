@@ -1,4 +1,14 @@
 
+Zeitgeist - Moving Forward | World Society | Documentary
+
+git add LICENSE
+
+
+git commit -m "Initial project version - too many things going on and partial projects, need a repo, especially for remote work. "
+
+git remote
+git remote add Littermates828 https://github.com/Littermates828/Littermates828
+
 add littermates to cgatgpt
   is google?
 
