@@ -1,0 +1,81 @@
+
+<html>
+<head>
+
+<title>
+    Yippee-yay-kayie 
+</title>
+<link rel="stylesheet" type="text/css" href="cssChores.css"></link>
+<script lang="javascript" >
+/*
+function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      } 
+*/
+
+function myChores(ick) {
+    /* var x = document.getElementById("myDIV"); */
+    var x = document.getElementById(ick);
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+    } 
+    </script>
+      
+</head>
+<body>
+<p />
+<input type="button" value="Go to " onclick="alert('Zoo');" >
+
+<!--
+    </input>
+
+boo<p />
+
+
+<button onclick="myFunction()">Click Me</button>
+
+<div id="myDIV">
+  This is my DIV element.
+</div> 
+
+bear
+-->
+<p />
+<hr />
+<table width="660px" border="1"> 
+    <tr>
+        <td colspan="3">
+task list 
+        </td >
+    </tr>
+    <tr onclick="myChores('d1'); ">
+        <td >  Fred  </td >
+        <td >  Kitchen  </td >
+        <td ><div id="d1" >And the recycling<br />Trash<br />Floors</div></td >
+    </tr>
+    <tr onclick="myChores('d2'); ">
+        <td >  Tom  </td >
+        <td >  Dungeon  </td >
+        <td ><div id="d2" >Time for bed<br />and rest</div></td >
+    </tr>
+    <tr onclick="myChores('d3'); ">
+        <td >  Mary  </td >
+        <td >  Prayer  </td >
+        <td ><div id="d3" >Worship<br />while<br />you<br />can</div></td >
+    </tr>
+    <tr onclick="myChores('d4'); ">
+        <td >  Joan  </td >
+        <td >  Bath </td >
+        <td ><div id="d4" >Party on Wayne<br />Trash paper<br />Tomorrow</div></td >
+    </tr>
+</table>
+</body>
+</html>
